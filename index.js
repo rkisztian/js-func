@@ -75,10 +75,16 @@ Math.random();
 //Nincs mellékhatása
 //Csak a paraméterektől függ
 // - TISZTA FÜGGVÉNY
-function fuggveny(){
-
+function fuggveny(param1){
+    return param1 * param1;
 }
 
+function nemTiszta(){
+    document.body.style.backgroundColor = "red";
+}
 
+function nemTiszta2(){
+    return document.body.style.backgroundColor;
+}
 
 
